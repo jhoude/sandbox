@@ -1,0 +1,39 @@
+/* loading the reset */
+@import url('_reset.css');
+
+
+.wrapper {
+    background-color: pink;
+    height: 100%;
+    max-width: 500px;
+}
+
+.header {
+    height: 100px;
+    background-color: blue;
+}
+
+.main {
+    display: inline-block;
+    box-sizing: border-box;
+    background-color: green;
+    height: 200px;
+    margin: 20px;
+    width: 40%;
+}
+
+
+.sidebar {
+    display: block;
+    float: right;
+    box-sizing: border-box;
+    width: 40%;
+    height: 200px;
+    margin: 20px;
+    background-color: black;
+}
+
+.footer {
+    height: 100px;
+    background-color: red;
+}
